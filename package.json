@@ -1,0 +1,109 @@
+{
+  "name": "acelera-movies-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint-config-standard": "^16.0.3",
+    "fontawesome": "^5.6.3",
+    "i18next": "^21.6.4",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "json2csv": "^5.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dotenv": "^0.1.3",
+    "react-i18next": "^11.15.3",
+    "react-input-mask": "^2.0.4",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "storybook": "^6.4.4",
+    "styled-components": "^5.3.3",
+    "validator": "^13.7.0",
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.18"
+  },
+  "scripts": {
+    "start": "react-dotenv && react-scripts start",
+    "build": "react-dotenv && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=35d06d6a9940"
+  },
+  "resolutions": {
+    "babel-loader": "8.1.0",
+    "styled-components": "^5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@storybook/addon-actions": "^6.4.4",
+    "@storybook/addon-essentials": "^6.4.4",
+    "@storybook/addon-links": "^6.4.4",
+    "@storybook/node-logger": "^6.4.4",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.4.4",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-ptbr-changelog": "^1.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-ptbr-changelog"
+    }
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "URL_BACKEND"
+    ]
+  }
+}
