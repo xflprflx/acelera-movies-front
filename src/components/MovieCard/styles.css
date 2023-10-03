@@ -1,0 +1,64 @@
+.card-container {
+  display: flex;
+  padding: 10px;
+}
+
+.base-card-container {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  max-height: 400px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.img-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 80%;
+}
+
+.top-content-container p{
+  color: blue;
+}
+
+.top-content-container p span{
+  font-weight: bold;
+}
+
+.title-container{
+  padding-top: 10px;
+}
+.title-container h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.title-container p{
+  padding: 0 0 0 10px;
+}
+
+.title-container h1,
+.title-container p,
+.bottom-content-container h3,
+.bottom-content-container p {
+  max-width: 50%; /* Defina o valor máximo de largura desejado */
+  margin-right: auto; /* Isso move o conteúdo para a esquerda para centralizá-lo */
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}

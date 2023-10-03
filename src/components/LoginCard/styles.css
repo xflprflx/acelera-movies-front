@@ -1,0 +1,110 @@
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Espaço uniformemente distribuído entre os elementos */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 300px; /* Altura do card */
+  width: 300px; /* Largura do card */
+  margin: 0 auto; /* Centraliza horizontalmente o card na página */
+  padding: 20px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda para o card */
+  border-radius: 5px; /* Borda arredondada para o card */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /*margin-bottom: 10px; /* Espaçamento entre cada par de label/input */
+}
+label {
+  font-weight: bold; /* Deixa o texto do label em negrito */
+  margin-bottom: 5px; /* Espaçamento entre o label e o input */
+}
+/* Estilização básica para o input */
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Estilização quando o input está em foco (quando o usuário clica nele) */
+input:focus, input:hover {
+  border-color: #007bff; /* Uma cor mais viva para indicar foco */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra suave quando em foco */
+}
+
+.input-icon {
+  position: relative; /* Permite posicionar elementos filhos relativos a este elemento pai */
+}
+
+.input-icon i {
+  position: absolute; /* Posiciona o ícone de forma absoluta */
+  top: 50%; /* Move o ícone para o meio verticalmente */
+  left: 10px; /* Ajusta o espaçamento à esquerda para alinhar o ícone */
+  transform: translateY(-50%); /* Corrige o posicionamento vertical */
+  color: #888; /* Cor do ícone */
+  pointer-events: none; /* Evita que o ícone seja clicável */
+}
+
+.input-icon input {
+  padding-left: 30px; /* Adiciona espaço à esquerda do input para acomodar o ícone */
+}
+
+/* Estilização para o link "Esqueceu sua senha?" */
+.forgot-password {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  /*margin-top: 10px;*/
+}
+
+
+/* Estilização para o link */
+.forgot-password a {
+  text-decoration: underline; /* Remove a formatação de link padrão */
+  color: #007bff; /* Cor do link */
+  display: block;
+}
+
+.forgot-password a:hover  {
+  color: #3485db; /* Uma cor mais viva para indicar foco */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra suave quando em foco */
+}
+
+.btn-container {
+  display: flex;
+  width: 216px;
+  height: 40px;
+}
+
+.btn-container button {
+  background-color: #fff;
+  border-color: #007bff;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-container button:hover {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra suave quando em foco */
+}
+
+.btn h6 {
+  color: #007bff;
+  font-size: 18px;
+}
+
+.btn-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33569b;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+}
+
+
+

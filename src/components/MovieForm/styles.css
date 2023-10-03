@@ -1,0 +1,77 @@
+.double-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.double-input input {
+  width: 240px;
+}
+
+.large-input textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.wide-input input {
+  width: 100%;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.btn-container button {
+  background-color: #10aa22;
+  border-radius: 3px;
+  width: 100%;
+}
+.btn-container button:hover {
+  outline: none;
+  box-shadow: 0 0 5px rgba(25, 124, 0, 0.5); /* Adiciona uma sombra suave quando em foco */
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+}
+
+label{
+  color: #535353;
+}
+
+input {
+  border:solid 2px #ccc;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+textarea:hover{
+    border-color: #007bff; /* Uma cor mais viva para indicar foco */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra suave quando em foco */
+}
